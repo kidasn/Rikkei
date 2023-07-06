@@ -1,0 +1,255 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif ;
+list-style: none;
+/* CSS phần header */
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(rgb(199, 81, 66),rgb(255, 101, 49));
+    display: flex;
+    justify-content: space-between
+}
+.shop-name{
+    color:#fff;
+    font-size: 40px;
+    line-height: 100px;
+    padding-left: 30px;
+    text-shadow: 3px 3px 2px black;
+    font-weight: bolder;
+    flex: 3
+}
+.shop-name:hover{
+    cursor: pointer;
+}
+form{
+    display: inline-block;
+    height: 100%;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex:3
+}
+.search-input{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 600px;
+    height: 40px;
+    margin: auto;
+    margin-right: 5px;
+}
+.search-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    color: red;
+    border: none;
+    margin: auto;
+    margin-left: 0;
+}
+.search-icon{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.search-button:hover{
+    cursor: pointer;
+    border: solid 2px #dfcdcd;
+}
+.header ul{
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+}
+.header .header-nav{
+    color: #fff;
+    margin: auto;
+    height: 100%;
+}
+.header ul li{
+    line-height: 100px;
+    flex: 1;
+    text-align: center;
+}
+.header ul li:hover{
+    background-color: orangered;
+    color: rgb(2, 5, 22);
+    cursor: pointer;
+}
+/* CSS phần main */
+.main{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    background-color: rgb(245, 245, 245);
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+.main .menu{
+    padding: 10px;
+    margin-top: 10px;
+}
+.menu-nav{
+    background-color: #fff;
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 10px;
+
+}
+.menu-nav h3{
+    display: inline-block;
+}
+.menu-content{
+    background-color: #fff;
+    padding: 20px;
+}
+.menu-content li{
+    margin-top: 20px;
+    position: relative;
+}
+.menu-content li::before{
+    content: "►";
+    position: absolute;
+    left: -15px;
+    color: #fff;
+    font-size: 10px;
+}
+.menu-content li:hover{
+    color: rgb(226, 76, 56);
+    cursor: pointer;
+}
+.menu-content li:hover::before{
+    color: rgb(226, 76, 56);
+}
+.iphone{
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+.iphone ul li{
+    padding: 10px;
+
+}
+.product-name{
+    font-weight: bold;
+}
+.product-name:hover{
+    cursor: pointer;
+    background-color: rgb(252, 252, 252);
+}
+.img-container{
+    width: 200px;
+    height: 300px;
+}
+.product-img{
+    width: 100%;
+    height: 100%;
+}
+.product-img:hover{
+    cursor: pointer;
+}
+.price{
+    color: rgb(214, 74, 31);
+    text-align: center;
+}
+.shopping-cart:hover{
+    cursor: pointer;
+    color: rgb(77, 15, 15);
+}
+.sold{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.heart{
+    color: blueviolet;
+}
+.heart:hover{
+    cursor: pointer;
+    color: palevioletred;
+}
+.seller{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* Đắc nhân tâm */
+.book{
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+.book ul li{
+    padding: 10px;
+
+}
+.position{
+    display: block;
+    text-align: right;
+}
+/* Mỳ tôm Hảo Hảo */
+.noodles{
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+.noodles ul li{
+    padding: 10px;
+}
+/* Bia */
+.beer{
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+.beer ul li{
+    padding: 10px;
+}
+/* Sunlight */
+.sunlight{
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+.sunlight ul li{
+    padding: 10px;
+}
+.middle-line{
+    width: 100%;
+    height: 4px;
+    background-color: rgb(188, 98, 100);
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: left;
+    column-gap: 120px;
+    padding-left: 130px;
+    padding-top: 70px;
+    margin-bottom: 10px;
+    background-color: rgb(245, 245, 245);
+}   
+.footer ul li{
+    padding: 10px;
+}
+.end-line{
+    width: 100%;
+    height: 4px;
+    background-color: black
+}
+.footer-content{
+    color: gray;
+}
+.person-name{
+    color: orangered;
+}
